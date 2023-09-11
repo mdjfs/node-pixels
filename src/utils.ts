@@ -1,0 +1,1 @@
+export const getInferedType = (src: string) => src.includes('png') ? 'image/png' : 'image/jpeg'

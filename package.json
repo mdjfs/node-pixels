@@ -1,0 +1,39 @@
+{
+  "name": "node-pixels",
+  "version": "0.0.1",
+  "description": "Pixels.js Adapter for Node (https://silvia-odwyer.github.io/pixels.js/)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "Apache-2.0 license",
+  "repository": "https://github.com/mdjfs/node-pixels",
+  "author": "Silvia Odwyer",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.6.0",
+    "jest": "^29.6.4",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "pixels",
+    "image",
+    "filters",
+    "node",
+    "processing",
+    "web",
+    "canvas",
+    "filter",
+    "brightness",
+    "saturation",
+    "contrast",
+    "greyscale"
+  ]
+}
